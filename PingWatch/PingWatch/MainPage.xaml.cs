@@ -36,7 +36,7 @@ namespace PingWatch
             cb = this.FindName("comboBox") as ComboBox;
         }
 
-        private void Confirm_Click(object sender, RoutedEventArgs e)
+        private void comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             tb.Text = data_center_ip_arr[cb.SelectedIndex];
         }

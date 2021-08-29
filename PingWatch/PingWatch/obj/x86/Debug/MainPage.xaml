@@ -9,19 +9,18 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
 	<Grid>
-		<ComboBox x:ConnectionId='2' x:Name="comboBox" Margin="20,120,0,0" Width="200" PlaceholderText="Select Data Center" IsRightTapEnabled="False" IsHoldingEnabled="False" IsDoubleTapEnabled="False">
-			<ListBoxItem Content="Primal"/>
-			<ListBoxItem Content="Elemental"/>
-			<ListBoxItem Content="Gaia"/>
-			<ListBoxItem Content="Mana"/>
-			<ListBoxItem Content="Aether"/>
-			<ListBoxItem Content="Light"/>
-			<ListBoxItem Content="Chaos"/>
-			<ListBoxItem Content="Crystal"/>
+		<ComboBox x:ConnectionId='2' x:Name="comboBox" Margin="20,120,0,0" Width="200" PlaceholderText="Select Data Center" IsRightTapEnabled="False" IsHoldingEnabled="False" IsDoubleTapEnabled="False"                                             >
+			<x:String>Primal</x:String>
+			<x:String>Elemental</x:String>
+			<x:String>Gaia</x:String>
+			<x:String>Mana</x:String>
+			<x:String>Aether</x:String>
+			<x:String>Light</x:String>
+			<x:String>Chaos</x:String>
+			<x:String>Crystal</x:String>
 		</ComboBox>
 		<TextBox x:ConnectionId='3' x:Name="textBox" HorizontalAlignment="Left" Margin="300,120,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" IsReadOnly="True"/>
-		<Button x:ConnectionId='4' x:Name="button" Content="Confirm" Margin="20,157,0,0" VerticalAlignment="Top" Width="200"                      />
-		<TextBlock x:ConnectionId='5' x:Name="textBlock" HorizontalAlignment="Left" Margin="20,20,0,0" Text="PingWatch" TextWrapping="Wrap" VerticalAlignment="Top" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" Height="80" Width="350" FontSize="60" FontFamily="Verdana"/>
+		<TextBlock x:ConnectionId='4' x:Name="textBlock" HorizontalAlignment="Left" Margin="20,20,0,0" Text="PingWatch" TextWrapping="Wrap" VerticalAlignment="Top" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" Height="80" Width="350" FontSize="60" FontFamily="Verdana"/>
 
 	</Grid>
 </Page>

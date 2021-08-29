@@ -18,6 +18,7 @@
       <RootProperty Name="IsHoldingEnabled" />
       <RootProperty Name="IsDoubleTapEnabled" />
       <RootProperty Name="Items" />
+      <RootEvent Name="SelectionChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="HorizontalAlignment" />
@@ -27,13 +28,6 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="IsReadOnly" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Button">
-      <RootProperty Name="Content" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Width" />
-      <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="HorizontalAlignment" />
@@ -50,9 +44,7 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="FontFamily" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ListBoxItem">
-      <RootProperty Name="Content" />
-    </RootType>
+    <RootType FullName="System.String" />
     <RootType FullName="PingWatch.MainPage" />
   </Roots.RootTypes>
 </Roots>
